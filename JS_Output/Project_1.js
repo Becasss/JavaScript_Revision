@@ -20,3 +20,10 @@ console.log(5 + 10);
     // Writing into an alert box, using window.alert():
     window.alert("Hello");
 window.alert(9 + 8);
+
+
+
+
+
+// JavaScript Print
+
