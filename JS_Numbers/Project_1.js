@@ -55,5 +55,8 @@ document.write("<br><br> The numbers are " + txt);
 // JavaScript Numbers as Objects:
 let j = new Number(1234);
 document.write("<br><br> The numbers are " + j);
-console.log(typeof(j)); // 
+console.log(typeof (j)); // Output : Object
+
+
+// 
 
