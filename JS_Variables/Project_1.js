@@ -26,7 +26,7 @@ console.log(name); // Output: Bikash
         - A new Object
         - A new Function
         - A new RegExp
-        
+
  */
 
 const age = 25;
@@ -36,3 +36,6 @@ console.log(age); // Output: 25
 
 
 // Var variables:
+var name = "BIkash";
+console.log(name); // Output: Bikash
+
