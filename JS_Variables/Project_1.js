@@ -36,6 +36,10 @@ console.log(age); // Output: 25
 
 
 // Var variables:
-var name = "BIkash";
-console.log(name); // Output: Bikash
+var Name = "BIkash";
+console.log(Name); // Output: Bikash
 
+/* 
+variables with var can be redeclared or reassigned
+variables with var can have global scope
+*/
