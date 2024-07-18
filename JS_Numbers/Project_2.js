@@ -29,3 +29,6 @@ document.write("<br>The minimum safe integer is " + minSafe + " and the maximum 
 
 // New Number Methods:
 document.write("<br>" + Number.isInteger(10) + "<br>" + Number.isInteger(10.5));
+
+
+// Number.isSafeInteger() Method::
