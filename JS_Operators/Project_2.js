@@ -50,3 +50,15 @@ u |= 5; // u = u | 5
 document.write("<br>" + u);
 
 // Bitwise XOR Assignment Operators
+
+let t = 10;
+t ^= 5; // t = t ^ 5
+document.write("<br>" + t);
+
+// Bitwise Left Shift Assignment Operators
+
+let s = 10;
+s <<= 2; // s = s << 2
+document.write("<br>" + s);
+
+// Bitwise Right Shift Assignment Operators
