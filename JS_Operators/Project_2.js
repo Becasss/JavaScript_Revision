@@ -41,3 +41,12 @@ document.write("<br>" + b);
 let v = 100;
 v &= 5; // v = v & 5
 document.write("<br>" + v);
+
+
+// Bitwise OR Assignment Operators
+
+let u = 10;
+u |= 5; // u = u | 5
+document.write("<br>" + u);
+
+// Bitwise XOR Assignment Operators
