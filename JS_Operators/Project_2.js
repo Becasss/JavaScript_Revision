@@ -32,3 +32,12 @@ a **= 3; // a = a ** 3
 document.write("<br>" + a);
 
 // Remainder Assignment Operators
+
+let b = 10;
+b %= 3; // b = b % 3
+document.write("<br>" + b);
+
+// Bitwise AND Assignment Operators
+let v = 100;
+v &= 5; // v = v & 5
+document.write("<br>" + v);
