@@ -62,3 +62,21 @@ s <<= 2; // s = s << 2
 document.write("<br>" + s);
 
 // Bitwise Right Shift Assignment Operators
+
+let r = 10;
+r >>= 2; // r = r >> 2
+document.write("<br>" + r);
+
+// Bitwise Zero Fill Right Shift Assignment Operators
+
+let q = 10;
+q >>>= 2; // q = q >>> 2
+document.write("<br>" + q);
+
+// Combined Assignment Operators
+
+let p = 10;
+p += 5; // p = p + 5
+p -= 10; // p = p - 10
+p *= 10; // p = p * 10
+p /= 5; // p = p / 5
