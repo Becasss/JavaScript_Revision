@@ -48,3 +48,19 @@ z = 10;     // Now z is a number
 z = "hello"; // Now z is a string
 
 document.write("<br>z: " + z);
+
+
+
+// The typeof Operator
+let a = 10;
+let b = "hello";
+let c = true;
+let d = { name: "John" };
+let e = [1, 2, 3];
+let f = null;
+document.write(typeof (a));
+document.write("<br>" + typeof (b));
+document.write("<br>" + typeof (c));
+document.write("<br>" + typeof (d));
+document.write("<br>" + typeof (e));
+document.write("<br>" + typeof (f));
