@@ -37,3 +37,14 @@ document.write("<br>Person:" + person.firstName + "lastName:" + person.laName + 
 // Array Object:
 const cars = ["Saab", "Volvo", "BMW"];
 document.write("<br>Cars:" + cars[0] + " " + cars[1] + " " + cars[2]);
+
+
+
+
+
+// Javascript Data types are dynamic
+let z;      // Now z is undefined
+z = 10;     // Now z is a number
+z = "hello"; // Now z is a string
+
+document.write("<br>z: " + z);
