@@ -16,3 +16,24 @@ document.write("length: " + length + " weight: " + weight);
 let name = "Bikash";
 let lastName = "Yamphu Rai";
 document.write('<br>My name is ' + name + lastName);
+
+
+// Booleans:
+let x = true;
+let y = false;
+document.write("<br>x: " + x + " y: " + y);
+
+
+// Objects:
+const person = {
+    firstName: "John",
+    laName: "Doe",
+    age: 30
+};
+document.write("<br>Person:" + person.firstName + "lastName:" + person.laName + "age:" + person.age);
+
+
+
+// Array Object:
+const cars = ["Saab", "Volvo", "BMW"];
+document.write("<br>Cars:" + cars[0] + " " + cars[1] + " " + cars[2]);
