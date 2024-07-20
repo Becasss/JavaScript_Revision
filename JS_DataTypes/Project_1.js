@@ -69,4 +69,7 @@ document.write("<br>" + typeof (f));
 
 // Undefined:
 let car;
-document.write("<br>Car: " + typeof(car));
+document.write("<br>Car: " + typeof (car));
+
+
+// Empty Values:
