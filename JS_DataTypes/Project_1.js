@@ -72,4 +72,6 @@ let car;
 document.write("<br>Car: " + typeof (car));
 
 
-// Empty Values:
+// Empty Values: An empty value has nothing to do with undefined.
+let gar = "";
+document.write("The value is: " + car + "<br>" + " The type is: " + typeof (car)); 
