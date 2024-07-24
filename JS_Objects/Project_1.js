@@ -25,3 +25,7 @@ person1.city = "Sankhuwasabha";
 
 document.write(person1.firstName + ' ' + person1.lastName + ' is ' + person1.age + " years old .");
  
+
+
+// Accessing the object properties
+console.log(person1['firstName']);
