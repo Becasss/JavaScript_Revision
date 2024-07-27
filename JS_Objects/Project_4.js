@@ -24,3 +24,6 @@ const myBrother = new Person("Rajesh", "Yamphu Rai", 55, "brown");
 console.log("My father age is" + myFather.age + '.');
 console.log("My mother age is" + myMother.age + '.');
 console.log("My brother age is" + myBrother.age + '.');
+
+
+// Prpertu Default Values:
