@@ -26,4 +26,20 @@ console.log("My mother age is" + myMother.age + '.');
 console.log("My brother age is" + myBrother.age + '.');
 
 
-// Prpertu Default Values:
+// Property Default Values:
+
+function Person1(first, last, age, eyes) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyes;
+    this.nationality = "English";
+};
+
+// Create 2 Person Objects
+const myFather1 = new Person1("Dhan", "Bahadur rai", 59, "blue");
+const myMother1 = new Person1("Rania", "Yamphu rai", 57, "brown");
+
+// Display Nationality 
+console.log("My father nationality is" + myFather1.nationality + '.');
+console.log("My mother nationality is" + myMother1.nationality + '.');.l
