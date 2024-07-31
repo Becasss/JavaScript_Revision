@@ -6,3 +6,5 @@ console.log(cars); // Output: Saab, Volvo, BWM
 
 
 console.log(cars[0]);
+
+console.log(cars[1]);
