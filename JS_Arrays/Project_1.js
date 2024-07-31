@@ -18,3 +18,5 @@ const car = new Array('Mercedes', 'tractor', 'Jeeper',);
 
 // Accessing Array Elements
 let carr = car[0];
+
+console.log(carr); // Output:Mercedes
