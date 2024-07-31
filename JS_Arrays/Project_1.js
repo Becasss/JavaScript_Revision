@@ -10,3 +10,6 @@ console.log(cars[0]);
 console.log(cars[1]);
 
 console.log(cars[2]);
+
+
+const car = new Array('Mercedes', 'tractor', 'Jeeper',);
