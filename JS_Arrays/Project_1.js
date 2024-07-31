@@ -16,4 +16,5 @@ const car = new Array('Mercedes', 'tractor', 'Jeeper',);
  console.log(car); // Output: Mercedes, tractor, Jeeper
 
 
-// Array Methods:
+// Accessing Array Elements
+let carr = car[0];
