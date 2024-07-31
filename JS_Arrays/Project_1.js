@@ -13,3 +13,7 @@ console.log(cars[2]);
 
 
 const car = new Array('Mercedes', 'tractor', 'Jeeper',);
+ console.log(car); // Output: Mercedes, tractor, Jeeper
+
+
+// Array Methods:
