@@ -32,3 +32,4 @@ document.write("<br>" + h);
 // new Date (milliseconds)
 const i = new Date(1647235120000);
 document.write("<br>" + i);
+document.write("<br>" + i.toString());
