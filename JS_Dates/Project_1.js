@@ -24,3 +24,7 @@ new Date(milliseconds)
 
 const g = new Date("octomber 12, 2014 11:12:00");
 document.write("<br>" + g);
+
+
+const h = new Date(2018, 11, 12, 10, 22, 20, 0);
+document.write("<br>" + h);
