@@ -1,3 +1,4 @@
+// Current date and time
 const d = new Date();
 document.write(d);
 
@@ -16,4 +17,10 @@ new Date(year, month,day, hours)
 new Date(year, month, day, hours, minutes)
 new Date(year, month, day, hours, minutes, seconds)
 new Date(year, month, day, hours, minutes, seconds, milliseconds)
- */
+
+
+new Date(milliseconds)
+*/
+
+const g = new Date("octomber 12, 2014 11:12:00");
+document.write("<br>" + g);
