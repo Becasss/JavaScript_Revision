@@ -28,3 +28,7 @@ document.write("<br>" + g);
 
 const h = new Date(2018, 11, 12, 10, 22, 20, 0);
 document.write("<br>" + h);
+
+// new Date (milliseconds)
+const i = new Date(1647235120000);
+document.write("<br>" + i);
