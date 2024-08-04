@@ -43,3 +43,4 @@ document.write("<br>" + w.getDay());
 document.write("<br>" + a.getHours());
 
 // The getMinutes() Method:
+document.write("<br>" + a.getMinutes());
