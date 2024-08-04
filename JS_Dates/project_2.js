@@ -44,3 +44,7 @@ document.write("<br>" + a.getHours());
 
 // The getMinutes() Method:
 document.write("<br>" + a.getMinutes());
+
+
+// The getSeconds() Method:
+document.write("<br>" + a.getSeconds());
