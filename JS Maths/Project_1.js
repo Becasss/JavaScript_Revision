@@ -66,3 +66,9 @@ document.write("<br>" + Math.log(1));       // Returns the natural logarithm of 
 document.write("<br>" + Math.E);    // returns Euler's number
 
 document.write("<br>" + Math.log(Math.E)); // returns the natural logarithm of E
+
+
+document.write("<br>" + Math.log2(8)); // returns the natural logarithm of
+
+document.write("<br>" + Math.log10(1000));    // returns the base 10 of logarithm of 1000.
+
