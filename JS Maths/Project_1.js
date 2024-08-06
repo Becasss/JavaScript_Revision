@@ -59,3 +59,10 @@ document.write("<br>" + Math.random())        // returns a random number between
 
 
 document.write("<br>" + Math.log(1));       // Returns the natural logarithm of 1
+
+
+// Math.E and Math.log() are twins
+
+document.write("<br>" + Math.E);    // returns Euler's number
+
+document.write("<br>" + Math.log(Math.E)); // returns the natural logarithm of E
