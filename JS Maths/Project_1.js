@@ -39,5 +39,20 @@ document.write("<br>" + Math.trunc(4.9));       // returns the integer part of x
 document.write("<br>" + Math.sign(-6));         // returns ths sign of  x is negative, null or positive
 
 
-document.write("<br>" + Math.pow(5, 3));      // returns the value of x to the power of y
+document.write("<br>" + Math.pow(5, 3));      // returns the value of 5 to the power of 3
 
+document.write("<br>" + Math.sqrt(64));      // returns the square root of 64.
+
+document.write("<br>" + Math.abs(-4.6));          // returns the absolute (Positive) value of x
+
+
+document.write("<br>" + Math.sin(90 * Math.PI / 180)); // returns 1 (the sine of 90 degrees)
+
+document.write("<br>" + Math.cos(0 * Math.PI / 180));    // returns 1 (the cos of ) degrees
+
+
+document.write("<br>" + Math.min(0, 130, 30, -23, 2323));     // returns the lowest vallue in a list of arguments.
+
+document.write("<br>" + Math.max(0, 150, 40, -2, -100));    // Returns the highest value in a list of arguments.
+
+document.write("<br>" + Math.random())        // returns a random number between 0 (inclusive) and 1 (exclusive):
