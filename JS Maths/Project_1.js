@@ -56,3 +56,6 @@ document.write("<br>" + Math.min(0, 130, 30, -23, 2323));     // returns the low
 document.write("<br>" + Math.max(0, 150, 40, -2, -100));    // Returns the highest value in a list of arguments.
 
 document.write("<br>" + Math.random())        // returns a random number between 0 (inclusive) and 1 (exclusive):
+
+
+document.write("<br>" + Math.log(1));       // Returns the natural logarithm of 1
