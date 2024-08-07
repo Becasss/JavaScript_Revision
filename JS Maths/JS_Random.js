@@ -5,4 +5,7 @@
 document.write(Math.random());      // Math.random() always reutrns a number lower than 1.
 
 
-document.write(Math.floor(Math.random() * 10));
+console.log(Math.floor(Math.random() * 10));
+
+
+console.log(Math.floor(Math.random() * 11));
