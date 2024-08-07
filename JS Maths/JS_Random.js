@@ -2,4 +2,5 @@
 
 
 // Returns a random number
-document.write(Math.random());
+document.write(Math.random());      // Math.random() always reutrns a number lower than 1.
+
