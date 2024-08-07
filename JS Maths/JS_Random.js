@@ -10,3 +10,8 @@ document.getElementById("demo").innerHTML =
 
 document.getElementById("momo").innerHTML =
     Math.floor(Math.random() * 11) + 1;
+
+
+
+// A Proper Random Function:
+
