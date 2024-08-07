@@ -8,5 +8,5 @@ document.write(Math.random());      // Math.random() always reutrns a number low
 document.getElementById("demo").innerHTML =
     Math.floor(Math.random() * 10);
 
-
-console.log(Math.floor(Math.random() * 11));
+document.getElementById("momo").innerHTML =
+    Math.floor(Math.random() * 11) + 1;
