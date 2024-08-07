@@ -4,3 +4,5 @@
 // Returns a random number
 document.write(Math.random());      // Math.random() always reutrns a number lower than 1.
 
+
+document.write(Math.floor(Math.random() * 10));
