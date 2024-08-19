@@ -1,1 +1,3 @@
-document.getElementById('momo').innerHTML = Date();
+function displayDate(){
+    document.getElementById('momo').innerHTML = Date();
+}
