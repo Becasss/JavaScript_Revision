@@ -30,3 +30,7 @@ console.log(cars); // Output: Toyota, Volvo, BWM
 
 // Converting Array to string
 console.log(cars.toString()); // Output:Toyota,Volvo, BWM
+
+
+// Accessing the full array:
+console.log(cars); // Output: Toyota, Volvo, BWM
