@@ -38,3 +38,5 @@ console.log(cars); // Output: Toyota, Volvo, BWM
 // Arrays are objects
 console.log(typeof cars); // Output:object
 
+// The length Property
+console.log(cars.length); // Output:3
