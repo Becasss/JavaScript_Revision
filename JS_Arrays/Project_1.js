@@ -20,3 +20,8 @@ const car = new Array('Mercedes', 'tractor', 'Jeeper',);
 let carr = car[0];
 
 console.log(carr); // Output:Mercedes
+
+
+// Changing array elements
+cars[0] = "Toyota";
+console.log(cars); // Output: Toyota, Volvo, BWM
