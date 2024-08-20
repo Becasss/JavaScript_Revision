@@ -25,3 +25,8 @@ console.log(carr); // Output:Mercedes
 // Changing array elements
 cars[0] = "Toyota";
 console.log(cars); // Output: Toyota, Volvo, BWM
+
+
+
+// Converting Array to string
+console.log(cars.toString()); // Output:Toyota,Volvo, BWM
