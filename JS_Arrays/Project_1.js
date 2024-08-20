@@ -46,4 +46,18 @@ console.log(cars.length); // Output:3
 console.log(cars[0]); // Output: Toyota
 
 // Accessing the last array element
-console.log(cars[cars.length - 1]); // Output: 
+console.log(cars[cars.length - 1]); // Output: BMW
+
+
+
+// Looping Array Elements
+let flen = cars.length;
+
+let text = "<ul>";
+for(let i = 0; i < flen; i ++) {
+    text += "<li>" + cars[i] + "</li>";
+}
+text += "</ul>";
+
+
+console.log(text); // Output: <ul><li>Toyota</li><li>Volvo</li><li>BMW</li></ul>
