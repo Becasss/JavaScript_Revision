@@ -40,3 +40,7 @@ console.log(typeof cars); // Output:object
 
 // The length Property
 console.log(cars.length); // Output:3
+
+
+// Accessing the first array element
+console.log(cars[0]); // Output: Toyota
