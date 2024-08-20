@@ -44,3 +44,6 @@ console.log(cars.length); // Output:3
 
 // Accessing the first array element
 console.log(cars[0]); // Output: Toyota
+
+// Accessing the last array element
+console.log(cars[cars.length - 1]); // Output: 
