@@ -34,3 +34,7 @@ console.log(cars.toString()); // Output:Toyota,Volvo, BWM
 
 // Accessing the full array:
 console.log(cars); // Output: Toyota, Volvo, BWM
+
+// Arrays are objects
+console.log(typeof cars); // Output:object
+
