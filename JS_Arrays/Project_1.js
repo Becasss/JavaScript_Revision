@@ -79,6 +79,7 @@ const myobj= {
     age:31,
     cars:[
         {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
-        {name:"BMW",}
+        {name:"BMW",models:["500", "x3", "X5"]},
+        {}
     ]   
 }
