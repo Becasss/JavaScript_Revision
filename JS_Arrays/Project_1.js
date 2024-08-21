@@ -61,3 +61,10 @@ text += "</ul>";
 
 
 console.log(text); // Output: <ul><li>Toyota</li><li>Volvo</li><li>BMW</li></ul>
+
+
+
+// Adding Array elements
+const fruits = ["Banana", "Apple", "Orange"];
+document.getElementById("demo").innerHTML = fruits;
+
