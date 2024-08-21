@@ -75,3 +75,10 @@ console.log(`animals after concat: ${mergeAnimals}`);
 // Merging an Array with values
 let mergeAnimalsArray = mergeAnimals.concat("Giraffected");
 console.log(`animals after concat with array: ${mergeAnimalsArray}`);
+
+
+
+// Array copyWithin()
+
+let animalCopy = animals.copyWithin(2, 0);
+console.log(`animals after copyWithin: ${animalCopy}`);
