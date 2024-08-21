@@ -85,5 +85,7 @@ const myobj= {
 }
 for(let i in myobj.cars){
     x += "<h2>" + myobj.cars[i].name + "</h2>";
-    
+    for(let j in myobj.cars[i].models){
+        
+    }
 }
