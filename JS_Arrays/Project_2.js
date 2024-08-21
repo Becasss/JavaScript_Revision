@@ -19,4 +19,7 @@ let animal = animals.at(2);
 console.log(`animal: ${animal}`); // Getting second element of animals using at()
 
 
-// JS Array indexOf()
+// Get the second elemeent of animals using []
+
+let secondAnimal = animals[1];
+console.log(`second animal: ${secondAnimal}`);
