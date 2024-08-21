@@ -23,3 +23,8 @@ console.log(`animal: ${animal}`); // Getting second element of animals using at(
 
 let secondAnimal = animals[1];
 console.log(`second animal: ${secondAnimal}`);
+
+
+// JS Array join()
+let joinedAnimal = animals.join("*");
+console.log(`joined animals: ${joinedAnimal}`); // Joining all elements of animals with *
