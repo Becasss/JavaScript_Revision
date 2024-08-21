@@ -77,5 +77,8 @@ let x = "";
 const myobj= {
     name: "Honey", 
     age:31,
-    cars:[]   
+    cars:[
+        {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+        {name:"BMW",}
+    ]   
 }
