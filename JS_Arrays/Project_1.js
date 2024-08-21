@@ -80,6 +80,9 @@ const myobj= {
     cars:[
         {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
         {name:"BMW",models:["500", "x3", "X5"]},
-        {}
+        {name:"Fiat", models:["500", "Panda"]}
     ]   
+}
+for(let i in myobj.cars){
+    
 }
