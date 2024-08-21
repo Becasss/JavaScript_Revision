@@ -101,3 +101,16 @@ console.log(`newArr: ${newArr}`);
 
 let animalSplic = animals.splice(2, 0, "Giraff", "Cobra");
 console.log(`animals after splice: ${animals}`);
+
+// Array splice() - to remve elements
+
+animalSplic = animals.splice(3, 2);
+console.log(`animals after splice: ${animals}`);
+
+
+
+// JS Array toSpliced() - 
+
+const months = ["Jan", "Feb", "Mar", "Apr"];
+const spliced = months.toSpliced(0, 1);
+console.log(`spliced: ${spliced}`);
