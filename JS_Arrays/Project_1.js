@@ -84,5 +84,6 @@ const myobj= {
     ]   
 }
 for(let i in myobj.cars){
+    x += "<h2>" + myobj.cars[i].name + "</h2>";
     
 }
