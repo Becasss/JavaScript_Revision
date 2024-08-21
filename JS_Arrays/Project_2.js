@@ -82,3 +82,22 @@ console.log(`animals after concat with array: ${mergeAnimalsArray}`);
 
 let animalCopy = animals.copyWithin(2, 0);
 console.log(`animals after copyWithin: ${animalCopy}`);
+
+
+// Flattering an array
+
+let nestedAnimals = [["Lion", "Tiger"], ["Elephant", "Monkey"]];
+let flatAnimals = nestedAnimals.flat();
+console.log(`animals after flat: ${flatAnimals}`);
+
+
+// JS array flatMap()
+const myArr = [1,2,3,4,5,6];
+const newArr = myArr.flatMap(x  => [x, x * 10]);
+console.log(`newArr: ${newArr}`);
+
+
+// JS Array splice() - to add elements
+
+let animalSplic = animals.splice(2, 0, "Giraff", "Cobra");
+console.log(`animals after splice: ${animals}`);
