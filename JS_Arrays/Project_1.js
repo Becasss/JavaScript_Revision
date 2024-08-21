@@ -72,3 +72,10 @@ function myFunction(){
     fruits.push("Lemon");
     document.getElementById("demo").innerHTML = fruits;
 }
+
+let x = "";
+const myobj= {
+    name: "Honey", 
+    age:31,
+    cars:[]   
+}
