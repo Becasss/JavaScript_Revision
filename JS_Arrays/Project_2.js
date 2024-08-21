@@ -11,3 +11,12 @@ console.log(`length: ${length}`);
 const animals = ["Lion", "Leopard", "Dog", "Cat"];
 let animalsString = animals.toString();
 console.log(`animals: ${animalsString}`);
+
+
+// JS Array at()
+
+let animal = animals.at(2);
+console.log(`animal: ${animal}`); // Getting second element of animals using at()
+
+
+// JS Array indexOf()
