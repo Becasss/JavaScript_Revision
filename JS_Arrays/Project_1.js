@@ -89,3 +89,6 @@ for(let i in myobj.cars){
         x += myobj.cars[i].models[j] + "<br>";
     }
 }
+
+document.getElementById("momo").innerHTML
+= x;
