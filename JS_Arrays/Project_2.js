@@ -114,3 +114,10 @@ console.log(`animals after splice: ${animals}`);
 const months = ["Jan", "Feb", "Mar", "Apr"];
 const spliced = months.toSpliced(0, 1);
 console.log(`spliced: ${spliced}`);
+
+// JS Array slice() - slices out a piece of an array into a new array.
+
+
+const animalSlice = animals.slice(1, 3);
+console.log(`animalSlice: ${animalSlice}`);
+
