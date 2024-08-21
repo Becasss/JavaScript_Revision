@@ -48,3 +48,30 @@ console.log(`animals after push: ${animals}`);
 let firstAnimal = animals.shift();
 console.log(`first animal: ${firstAnimal}`); // Removing first element from animals
 console.log(`animals after shift: ${animals}`);
+
+
+// JS Array Unshift().
+
+animals.unshift("Elephant");
+console.log(`animals after unshift: ${animals}`);
+
+
+// Changing Elements
+animals[0] = "Banana";
+console.log(`animals after change: ${animals}`);
+
+//Js Array delete().
+
+delete animals[1];
+console.log(`animals after delete: ${animals}`);
+
+
+//Merging Arrays (Concatenating)
+
+let newAnimals = ["Hippopadmaas", "Eagle"];
+let mergeAnimals = animals.concat(newAnimals);
+console.log(`animals after concat: ${mergeAnimals}`);
+
+// Merging an Array with values
+let mergeAnimalsArray = mergeAnimals.concat("Giraffected");
+console.log(`animals after concat with array: ${mergeAnimalsArray}`);
