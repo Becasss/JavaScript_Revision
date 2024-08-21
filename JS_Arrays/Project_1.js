@@ -68,3 +68,7 @@ console.log(text); // Output: <ul><li>Toyota</li><li>Volvo</li><li>BMW</li></ul>
 const fruits = ["Banana", "Apple", "Orange"];
 document.getElementById("demo").innerHTML = fruits;
 
+function myFunction(){
+    fruits.push("Lemon");
+    document.getElementById("demo").innerHTML = fruits;
+}
