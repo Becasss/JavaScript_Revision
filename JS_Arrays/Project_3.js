@@ -96,3 +96,18 @@ function myfunction(){
     }
     document.getElementById('fy').innerHTML = points;
 }
+
+
+
+
+// Find the min or max with sort() method:
+
+let numbers = [4, 2, 9, 5, 1, 6];
+
+numbers.sort(function(a, b){
+    return a - b;
+});
+
+console.log(`Minimum value: ${numbers[0]}`);
+
+console.log(`Maximum value : ${numbers[numbers.length - 1]}`)
