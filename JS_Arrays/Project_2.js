@@ -121,3 +121,16 @@ console.log(`spliced: ${spliced}`);
 const animalSlice = animals.slice(1, 3);
 console.log(`animalSlice: ${animalSlice}`);
 
+
+
+// Array IndexOf()
+
+let index = animals.indexOf("Giraff");
+console.log(`Index of giraff: ${index}`);
+
+const car = ['a', 'b', 'c', 'd'];
+let findex = car.indexOf("a") + 1;
+console.log(`Index of a: ${findex}`);
+
+// Array LastIndexOf()
+
