@@ -10,3 +10,16 @@ console.log(`sorted fruits: ${sorted}`);
 let reversed = fruits.reverse();
 console.log(`reversed fruits: ${reversed}`);
 
+
+// Sortin in reverse order - combining sort() & reverse() methods
+
+
+const characters = ["z", "a", "b", "c", "d", "e","i", "f", "o", "p"];
+let sortedReverse = characters.sort().reverse();
+console.log(`sorted characters: ${sortedReverse}`);
+
+// JS Array  toSorted() Method
+
+const months = ["Jan", "Feb", "Mar", "Apr", "May"];
+const sorrted = months.toSorted();
+console.log(`sorted months: ${sorrted}`);
