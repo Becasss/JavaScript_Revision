@@ -167,7 +167,8 @@ function myyFunction(){
 }
 
 function displayCarss(){
-    document.getElementById('dodo').innerHTML = 
+    document.getElementById('dodo
+        ').innerHTML = 
     carss[0].type + " " + carss[0].year + " " + carss[0].color + "<br>" +
     carss[1].type + " " + carss[1].year + " " + carss[1].color + "<br>" +
     carss[2].type + " " + carss[2].year + " " + carss[2].color;
