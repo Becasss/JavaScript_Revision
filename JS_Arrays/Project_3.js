@@ -111,3 +111,12 @@ numbers.sort(function(a, b){
 console.log(`Minimum value: ${numbers[0]}`);
 
 console.log(`Maximum value : ${numbers[numbers.length - 1]}`)
+
+
+
+//Using Math.min() or Math.max() on an Array
+
+low = numbers.Math.min.apply(null, arr);
+
+
+console.log(`Minimum value: ${low}`);
