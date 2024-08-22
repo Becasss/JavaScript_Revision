@@ -52,3 +52,21 @@ points.sort(function(a,b){
 });
 
 console.log(`descending sorted points: ${points}`);
+
+//Compare Function
+
+const point = [40, 100, 1, 5, 25, 10];
+
+console.log(point);
+
+function myFunction1(){
+    point.sort();
+    console.log(point);
+}
+
+function myFunction2(){
+    point.sort(function(a,b){
+        return b - a;
+    });
+    console.log(point);
+}
