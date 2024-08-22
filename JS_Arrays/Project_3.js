@@ -116,7 +116,9 @@ console.log(`Maximum value : ${numbers[numbers.length - 1]}`)
 
 //Using Math.min() or Math.max() on an Array
 
-low = numbers.Math.min.apply(null, arr);
+document.getElementById('mo').innerHTML = numbers
+= myArrayMin(numbers);
 
-
-console.log(`Minimum value: ${low}`);
+function myArrayMin(arr){
+    return Math.min.apply(null, arr);
+}
