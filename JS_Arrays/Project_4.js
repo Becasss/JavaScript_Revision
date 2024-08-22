@@ -27,3 +27,14 @@ return value * 2;
 
 const newArr = numbers.flatMap(x => [x, x*10]);
 console.log(newArr);
+
+
+// Javascriptp Array filter();
+
+
+const over5 = numbers.filter(mFunction);
+console.log(over5);
+
+function mFunction(value,index,array) {
+    return value > 5;
+}
