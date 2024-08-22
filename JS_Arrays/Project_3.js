@@ -30,3 +30,15 @@ console.log(`sorted months: ${sorrted}`);
 const animals = ["Lion", "Tiger", "Elephant", "Giraffe", "Monkey"];
 const reversedAnimals = animals.toReversed();
 console.log(`reversed animals: ${reversedAnimals}`);
+
+
+// Numeric sort
+
+const points = [40, 1100, 1, 4, 25, 10];
+
+points.sort(function(a,b){
+    return b - a;
+});
+
+
+console.log(`sorted points: ${points}`);
