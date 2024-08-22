@@ -139,5 +139,5 @@ console.log(`Index of a: ${findex}`);
 let lastIndex = car.lastIndexOf("a") + 1;
 console.log(`Last index of a: ${lastIndex}`);
 
-// Array LastIndexOf()
+// 
 
