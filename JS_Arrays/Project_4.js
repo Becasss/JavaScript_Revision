@@ -84,3 +84,17 @@ function Over(value, index, array){
 const aplha = Array.from("ABSCDEDG");
 console.log(`The array from string is:${aplha}`);
 
+
+// Javascript Array keys():
+
+const fruitss = ["Banana", "Apple", "Orange", "Mango", "Cherry"];
+
+const keys= fruitss.keys();
+
+let txt = "";
+for(let x of keys){
+    txt += fruitss[x] + "\n";
+}
+
+
+console.log(txt);
