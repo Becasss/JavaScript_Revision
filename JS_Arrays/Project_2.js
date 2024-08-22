@@ -144,3 +144,13 @@ console.log(`Last index of a: ${lastIndex}`);
 console.log(car.includes("a"));
 console.log(car.includes("b"));
 
+
+
+// Array find()
+const numbers = [2,3,45,65, 334,34,34,34,34,34,34,34,34,34]
+let first = numbers.find(myfunction);
+console.log(first);
+
+function myfunction (value, index, array) {
+    return value > 30;
+}
