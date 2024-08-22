@@ -139,5 +139,8 @@ console.log(`Index of a: ${findex}`);
 let lastIndex = car.lastIndexOf("a") + 1;
 console.log(`Last index of a: ${lastIndex}`);
 
-// 
+// JS Array includes()
+
+console.log(car.includes("a"));
+console.log(car.includes("b"));
 
