@@ -23,3 +23,10 @@ console.log(`sorted characters: ${sortedReverse}`);
 const months = ["Jan", "Feb", "Mar", "Apr", "May"];
 const sorrted = months.toSorted();
 console.log(`sorted months: ${sorrted}`);
+
+
+//JS Array toReversed() Method
+
+const animals = ["Lion", "Tiger", "Elephant", "Giraffe", "Monkey"];
+const reversedAnimals = animals.toReversed();
+console.log(`reversed animals: ${reversedAnimals}`);
