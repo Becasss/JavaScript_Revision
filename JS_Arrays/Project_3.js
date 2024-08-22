@@ -57,16 +57,16 @@ console.log(`descending sorted points: ${points}`);
 
 const point = [40, 100, 1, 5, 25, 10];
 
-console.log(point);
+document.getElementById('demo').innerHTML = point;
 
 function myFunction1(){
     point.sort();
-    console.log(point);
+    document.getElementById('demo').innerHTML = point;
 }
 
 function myFunction2(){
     point.sort(function(a,b){
         return b - a;
     });
-    console.log(point);
+  document.getElementById('demo').innerHTML = point;
 }
