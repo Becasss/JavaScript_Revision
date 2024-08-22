@@ -37,8 +37,18 @@ console.log(`reversed animals: ${reversedAnimals}`);
 const points = [40, 1100, 1, 4, 25, 10];
 
 points.sort(function(a,b){
-    return b - a;
+    return a - b;
 });
 
 
 console.log(`sorted points: ${points}`);
+
+
+
+// Use the same trick to sort an array deescending
+
+points.sort(function(a,b){
+    return b- a;
+});
+
+console.log(`descending sorted points: ${points}`);
