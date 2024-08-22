@@ -20,3 +20,10 @@ console.log(numbers1);
 function myfunction(value) {
 return value * 2;
 }
+
+
+
+// JavaScript Array flatMap();
+
+const newArr = numbers.flatMap(x => [x, x*10]);
+console.log(newArr);
