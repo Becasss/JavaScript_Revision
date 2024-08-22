@@ -70,3 +70,15 @@ function myFunction2(){
     });
   document.getElementById('demo').innerHTML = point;
 }
+
+
+// Sorting array in random order
+
+const poi = [40, 100, 1, 5, 25, 10];
+document.getElementById('momo').innerHTML = poi;
+
+function myFunction(){
+    poi.sort(function()
+    {return 0.5 - Math.random()});
+    document.getElementById('momo').innerHTML = poi;
+}
