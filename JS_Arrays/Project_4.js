@@ -98,3 +98,16 @@ for(let x of keys){
 
 
 console.log(txt);
+
+
+// The entries() Method:
+
+const fruitss1 = ["Banana", "Apple", "Orange", "Mango", "Cherry"];
+
+const f = fruitss1.entries();
+
+let txt1 = "";
+for(let x of f){
+  txt1 += x + "\n";
+  console.log(txt1);
+}
