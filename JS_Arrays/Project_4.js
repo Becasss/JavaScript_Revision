@@ -10,3 +10,13 @@ console.log(text);
 function myFunction(value,index, array) {
 text += value + "\n";
 }
+
+
+// JavaScript Array map();
+
+const numbers1 = numbers.map(myfunction);
+console.log(numbers1);
+
+function myfunction(value) {
+return value * 2;
+}
