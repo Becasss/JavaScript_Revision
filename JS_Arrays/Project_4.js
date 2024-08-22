@@ -38,3 +38,14 @@ console.log(over5);
 function mFunction(value,index,array) {
     return value > 5;
 }
+
+
+
+// JavaScript Array reduce();
+
+let sum = numbers.reduce(functions);
+console.log(`the sum is:${sum}`);
+
+function functions(total, value, index, array){
+    return total + value;
+}
