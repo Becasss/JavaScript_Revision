@@ -128,9 +128,16 @@ console.log(`animalSlice: ${animalSlice}`);
 let index = animals.indexOf("Giraff");
 console.log(`Index of giraff: ${index}`);
 
-const car = ['a', 'b', 'c', 'd'];
+const car = ['a', 'b', 'c', 'a','d'];
 let findex = car.indexOf("a") + 1;
 console.log(`Index of a: ${findex}`);
+
+
+
+// Array lastIndexOf()
+
+let lastIndex = car.lastIndexOf("a") + 1;
+console.log(`Last index of a: ${lastIndex}`);
 
 // Array LastIndexOf()
 
