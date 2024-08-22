@@ -78,3 +78,9 @@ console.log(`Is over 5 is:${someOver5}`);
 function Over(value, index, array){
     return value > 5;
 }
+
+// Javascript Array.from():
+
+const aplha = Array.from("ABSCDEDG");
+console.log(`The array from string is:${aplha}`);
+
