@@ -23,3 +23,8 @@ let z = (a == b) ? "a and b are equal" : "a and b are not equal";
 console.log(z);
 
 
+function myFunction(){
+    let age = document.getElementById("age").value;
+    let voteable = (age < 18)? "Too Young": "Old enough";
+    document.getElementById("demo").innerHTML = voteable + "to vote.";
+}
