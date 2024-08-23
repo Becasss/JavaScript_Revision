@@ -24,3 +24,19 @@ switch(new Date().getDay()) {
 }
 
 console.log(day);
+
+let text;
+switch(new Date().getDay()) {
+    case 4:
+    case 5:
+        text = "It's a weekend!";
+        break;
+    case 0:
+    case 6:
+        text = "Soon It is weekend!";
+      break;
+    default:
+        text = "Looking forward to the weekend!";
+}
+
+console.log(text);
