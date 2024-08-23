@@ -1,8 +1,7 @@
 // The if statement: 
-
-if(new Date().getHours()< 18){
-    document.getElementById("demo").innerHTML = 
-    "Good Day!";
+let daytime = new Date().getHours();
+if(daytime < 18){
+   console.log( "Good Day!");
 }
 
 
