@@ -16,4 +16,4 @@ let txt = "";
 for(let x of language){
     txt += x + "\n";
 }
-console.log(txt); 
+console.log(txt); b
