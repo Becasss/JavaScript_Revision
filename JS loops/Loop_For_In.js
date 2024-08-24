@@ -29,3 +29,16 @@
    txt += numbers[x] + "\n";
  }
  console.log(txt);
+
+
+
+ // Array forEach() Method:
+
+ let arry = "";
+ numbers.forEach(myFunction);
+console.log(arry);
+
+function myFunction(value,index, array){
+   arry += value + "\n";
+
+}
