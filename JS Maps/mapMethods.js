@@ -76,3 +76,38 @@ for (const x of cities.values()){
 }
 document.getElementById("demo3").innerHTML
 = value;
+
+console.log(typeof cities);
+console.log(typeof fruit);
+
+
+
+
+// Map.groupBy() Method:
+const dates = [
+    {name:"apples", quantity : 300},
+    {name:"bananas", quantity: 500},
+    {name:"oranges", quantity: 200},
+    {name: "kiwi", quantity: 100}
+];
+
+// callback function to select low volumes
+function myCallback({quantity}){
+    return quantity > 200 ? "Ok" : "Low";
+}
+
+
+// group by ok and low
+const result = Map.groupBy(dates, myCallback);
+
+// display results:
+let txtt = "These frutis are Ok: <br>";
+
+for (let x of result.get("Ok")){
+    txtt += x.name + " " + x.quantity + "<br>";
+}
+txtt += '<br> These fruits are low: <br>';
+
+document.getElementById("demo4").innerHTML
+= txtt;
+console.log(result.get("Ok"));
