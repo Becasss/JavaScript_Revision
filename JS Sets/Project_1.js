@@ -111,3 +111,14 @@ for (const x of letterss.keys()) {
 }
 
 console.log(text4);
+
+
+
+// The Entries() Method:
+
+let text5 = "";
+for (const x of letterss.entries()) {
+    text5 += x + "\n";
+}
+
+console.log(text5);
