@@ -1,5 +1,5 @@
 let text = "";
-for(let i 0; i < 10; i++){
+for(let i=0; i < 10;s i++){
     if (i === 3){break;}
     text += "The number is " + i + "\n";
 }
