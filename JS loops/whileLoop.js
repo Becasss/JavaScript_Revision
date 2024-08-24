@@ -26,10 +26,9 @@ console.log(txt);
 
 const cars = ["A", "B", "C", "D", "E", "F"];
 
-let b = 0;
+
 let trt = "";
-for (;cars[i];){
+for (let b = 0;b < cars.length;b++){
     trt += cars[b] + "\n";
-    b++;
 }
 console.log(trt);
