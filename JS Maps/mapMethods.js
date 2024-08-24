@@ -49,3 +49,30 @@ cities.forEach(function(value,key){
 })
 document.getElementById("demo").innerHTML
 = txt;
+
+
+// Map.entries() Method:
+let text = "";
+for (const x of cities.entries()) {
+    text += x + "<br>";
+}
+document.getElementById("demo1").innerHTML
+= text;
+
+
+// Map.keys() Method:
+let key = "";
+for (const x of cities.keys()){
+    key += x + "<br>";
+}
+document.getElementById("demo2").innerHTML
+= key;
+
+
+// Map.values() Method:
+let value = "";
+for (const x of cities.values()){
+    value += x + "<br>";
+}
+document.getElementById("demo3").innerHTML
+= value;
