@@ -32,3 +32,15 @@ for (let b = 0;b < cars.length;b++){
     trt += cars[b] + "\n";
 }
 console.log(trt);
+
+
+// while loop;
+
+let c = 0;
+let txt1 = "";
+while(cars[c]){
+    txt1 += `\n The number is : ${cars[c]}`;
+    i ++;
+}
+    console.log(txt1);
+
