@@ -26,3 +26,37 @@ console.log(typeof x);
  console.log(String(a));
  console.log(String(123));
 console.log(100 + 24);
+
+// toString() Method:
+console.log((123).toString());
+
+
+
+
+// Converting Dates to Numbers
+let d = new Date();
+console.log(Number(d));
+
+console.log(d.getTime());
+
+
+
+// Converting Dates to strings
+
+console.log(String(Date()));
+console.log(Date().toString());
+
+
+
+// Converting Booleans to Numbers
+
+console.log(Number(false));
+console.log(Number(true));
+
+
+
+
+// Converting Booleans to Strings
+
+console.log(String(false));
+console.log(String(true));
