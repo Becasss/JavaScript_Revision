@@ -15,5 +15,12 @@ console.log(5 ^ 1);
 console.log(~ 1);   
 
 
-// Javascript (Zero Fill) Bitwise Left Shift(<<
+// Javascript (Zero Fill) Bitwise Left Shift(<<)
 console.log(5 << 1);
+console.log(5 << 2);
+
+
+
+// Javascript (Sign Preserving ) Bitwise Right Shift(>>)
+console.log(5 >> 1);
+console.log(5 >> 2);
