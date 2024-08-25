@@ -43,3 +43,19 @@ let {name: firtName} = employee;
 
 // Display the primitive values
 console.log(firtName);
+
+
+
+// String Destructing 
+let name = "W3schools.com";
+
+// Display Value
+let [a1, a2, a3, a4, a5, a6] = name;
+
+// Display Value
+console.log(a1);
+console.log(a2);
+console.log(a3);
+console.log(a4);
+console.log(a5);
+console.log(a6);
