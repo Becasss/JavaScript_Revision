@@ -119,3 +119,13 @@ for(const [key,value] of map){
 }
 
 console.log(text);
+
+// Swapping variables
+ let fn = "Bikash";
+ let ln = "Yamphu Rai";
+
+ // DEscructuring
+ [fn, ln] = [ln, fn];
+
+console.log(fn);
+console.log(ln);
