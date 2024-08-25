@@ -28,3 +28,18 @@ let {fname,lname, country = "US"} = people;
 console.log(fname);
 console.log(lname);
 console.log(country);
+
+
+// Object Property Alias
+
+const employee = {
+    id : 123,
+    name: "John Doe",
+    salary : 50000
+}
+
+// Destructuring
+let {name: firtName} = employee;
+
+// Display the primitive values
+console.log(firtName);
