@@ -73,3 +73,11 @@ let [fruit1, fruit2]= fruits;
 
 console.log(fruit1);
 console.log(fruit2);
+
+
+
+let [b1,,,b2] = fruits;
+
+
+console.log(b1);
+console.log(b2);
