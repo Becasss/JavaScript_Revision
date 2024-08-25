@@ -8,3 +8,15 @@ function myFunction() {
 }
 
 document.getElementById("demo2").innerHTML = typeof x;
+
+
+
+
+// Gobal Javscrpt Variables:
+
+let carName = "Volvo";
+myfunctoin();
+
+function myfunctoin() {
+  document.getElementById("demo3").innerHTML = "I can display " + carName;
+}
