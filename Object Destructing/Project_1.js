@@ -101,3 +101,21 @@ console.log(a);
 console.log(b);
 console.log(rest);
     
+
+
+// Desctructuring Maps
+
+const map = new Map([
+    ["aples", 500],
+    ["bananas", 300],
+    ["oranges", 200]
+]);
+
+// Destructuring
+
+let text = "";
+for(const [key,value] of map){
+    text += `${key}: ${value}\n`;
+}
+
+console.log(text);
