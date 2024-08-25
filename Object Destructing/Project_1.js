@@ -7,3 +7,7 @@ const person = {
 // Destructuring 
 let {firstName, lastName} = person;
 
+
+// Display the primitive Values
+console.log(firstName);
+console.log(lastName);
