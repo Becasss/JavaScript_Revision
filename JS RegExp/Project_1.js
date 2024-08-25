@@ -19,3 +19,13 @@ function myFunction(){
     document.getElementById("demo").innerHTML =
     b.replace("Microsoft!", "Google");
 }
+
+
+
+// Use String replace() with a Regular Expression
+
+function myFunction(){
+    let c = document.getElementById('momo').innerHTML;
+    document.getElementById('momo').innerHTML =
+    c.replace(/microsoft!/i, "Google");
+}
