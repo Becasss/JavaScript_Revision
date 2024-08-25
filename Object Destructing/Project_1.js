@@ -89,3 +89,15 @@ const {[0]:f1, [1]:f2} =fruits;
 
 console.log(f1);
 console.log(f2);
+
+
+// TheREst Property
+
+const numbers = [10,20,30,40,60,70];
+
+const [a,b, ...rest] = numbers;
+
+console.log(a);
+console.log(b);
+console.log(rest);
+    
