@@ -81,3 +81,11 @@ let [b1,,,b2] = fruits;
 
 console.log(b1);
 console.log(b2);
+
+
+//Array position values
+
+const {[0]:f1, [1]:f2} =fruits;
+
+console.log(f1);
+console.log(f2);
