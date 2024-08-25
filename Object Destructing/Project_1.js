@@ -59,3 +59,17 @@ console.log(a3);
 console.log(a4);
 console.log(a5);
 console.log(a6);
+
+
+
+// Array Destructuring
+// Crate an Array
+const fruits = ["Banana", "Orange", "Apples", "Mangos"];
+
+// DEstructuring
+let [fruit1, fruit2]= fruits;
+
+// Display primitive values
+
+console.log(fruit1);
+console.log(fruit2);
