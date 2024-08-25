@@ -75,7 +75,7 @@ console.log(fruit1);
 console.log(fruit2);
 
 
-
+// Skipping array values
 let [b1,,,b2] = fruits;
 
 
