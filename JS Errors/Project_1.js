@@ -49,3 +49,26 @@ function myfunction(){
     document.getElementById('momo').value = "";
     }
 }
+
+
+// Range Error:
+
+let num = 1;
+try{
+    num.toPrecision(500);
+}
+catch(err){
+    document.getElementById('p03').innerHTML = err.name;
+}
+
+
+
+// Reference Error:
+
+let x = 5;
+try{
+    x = y + 1;
+}
+catch(err){
+    document.getElementById('p04').innerHTML = err.name;
+}
