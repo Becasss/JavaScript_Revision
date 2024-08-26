@@ -14,3 +14,6 @@ let text = '{"employees" : [ '+
 const obj = JSON.parse(text);
     
 console.log(obj.employees[0].firstName);
+
+
+
