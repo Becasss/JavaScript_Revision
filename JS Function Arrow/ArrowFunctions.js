@@ -24,3 +24,9 @@ const greetPerson = name => {
     return greeting;
 }
 console.log(greetPerson("Bikash"));
+
+
+// Returning Object Literals
+
+const makePerson = (firstName, lastName) => ({first: firstName, last: lastName});;
+console.log(makePerson("Bikash", "Yamphu Rai"));
