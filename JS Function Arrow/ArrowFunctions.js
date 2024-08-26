@@ -15,3 +15,12 @@ console.log(square(5));
 
 const add =  (z, y) => z + y;
 console.log(add(3, 5));
+
+
+// Function body with Multiple statements
+
+const greetPerson = name => {
+    const greeting = "Hello world!" + name + "!";
+    return greeting;
+}
+console.log(greetPerson("Bikash"));
