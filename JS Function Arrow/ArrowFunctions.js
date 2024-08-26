@@ -9,3 +9,9 @@ console.log(greet());
 
 const square = x => x * x;
 console.log(square(5));
+
+
+// Multiple Parameters
+
+const add =  (z, y) => z + y;
+console.log(add(3, 5));
