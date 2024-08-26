@@ -27,3 +27,11 @@ console.log(hlo());
 let add = "";
 add = () => "Hello, world!";
 console.log(add());
+
+
+
+
+// Arrow Function with a Parameters
+let params ="";
+params = (name) => `Hello, ${name}!`;
+console.log(params("Bikash"));
