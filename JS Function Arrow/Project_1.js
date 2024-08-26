@@ -35,3 +35,10 @@ console.log(add());
 let params ="";
 params = (name) => `Hello, ${name}!`;
 console.log(params("Bikash"));
+
+
+// Arrow function without a Paranthesis
+
+let noparams = "";
+nonparams = val => "Hello, world!" + val;
+console.log(nonparams(10));
