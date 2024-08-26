@@ -42,3 +42,20 @@ console.log(params("Bikash"));
 let noparams = "";
 nonparams = val => "Hello, world!" + val;
 console.log(nonparams(10));
+
+
+
+/// JavaScript "this"
+let maya = "";
+maya = function(){
+    document.getElementById("demo").innerHTML += maya;
+}
+
+// The window object calls the function:
+window.addEventListener("load", maya);
+
+
+
+// A button object calls the functions:
+
+document.getElementById('btn').addEventListener("click",maya);
