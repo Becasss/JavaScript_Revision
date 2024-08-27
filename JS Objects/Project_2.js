@@ -9,14 +9,54 @@ function Person(first, last, age, eye) {
     this.eyeColor = eye;
 }
 
+Person.prototype.name = function () {
+    return this.firstName + " " + this.lastName;
+}
 Person.prototype.nationality = "English";
 
 const myFather = new Person("John", "Doe", 50, "Blue");
 
 console.log(`The Nationality of my father is ${myFather.nationality}`);
 
+console.log(`My father is ${myFather.name()}`);
 
-Person.prototype.name = function () {
-    return this.firstName + " " + this.lastName;
-}
-console.log(`My father is ${myFather.name}`);
+
+
+// General Methods
+
+// JS Object.assign() Method:
+const person1 = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30
+};
+
+const person2 = {
+    firstName: "John",
+    lastName: "Smith"
+};
+
+
+// Assign Source to Target
+
+Object.assign(person1, person2);
+
+// Display Target
+
+let text = Object.entries(person1);
+console.log(text);
+
+
+
+
+// Object.entries() Method:
+
+const person3 = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    eyeColor: "blue"
+};
+
+let text1 = Object.entries(person3);
+console.log(text1);
