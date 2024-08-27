@@ -23,3 +23,17 @@ person1.eyeColor = "brown";
 
 // Display Data from Object.
 console.log(`My name is ${person1.firstName} ${person1.lastName}.`);
+
+
+
+// Object Constructor Functions
+
+function person2(first, last, age, eye) {
+    this.firstname = first;
+    this.lastname = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+
+// create Two Person Objects
+const myFather = new person2("Dhan" , "Bahadur", 59, "Blue");
