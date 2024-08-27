@@ -133,4 +133,7 @@ Object.isSealed(object)
 // Prevents any changes to an object
 Object.freeze(object)
 
+// Returns true if object is frozen
+Object.isFrozen(object)
+
 
