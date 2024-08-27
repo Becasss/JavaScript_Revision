@@ -36,4 +36,8 @@ function person2(first, last, age, eye) {
 }
 
 // create Two Person Objects
-const myFather = new person2("Dhan" , "Bahadur", 59, "Blue");
+const myFather = new person2("Dhan", "Bahadur", 59, "Blue");
+const myMother = new person2("Rania", "Yamphu", 57, "brown");
+
+console.log(`My father is ${myFather.firstName} ${myfather.lastName}.`);
+console.log(`My mother is ${myMother.firstName} ${myMother.lastName}`);
