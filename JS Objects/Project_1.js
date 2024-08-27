@@ -41,3 +41,52 @@ const myMother = new person2("Rania", "Yamphu", 57, "brown");
 
 console.log(`My father is ${myFather.firstName} ${myfather.lastName}.`);
 console.log(`My mother is ${myMother.firstName} ${myMother.lastName}`);
+
+
+
+
+
+// Using Object.assign()
+
+// Using Object.create()
+// Using Object .fromEntries()
+
+
+
+
+//  JS Object Methods
+
+// General Methods
+
+// Copies properties from a source object to a target object:
+Object.assign(target, source)
+
+
+// Creates an object from an existing object
+Object.create(object)
+
+// Returns an array of the key/value pairs of an object
+Object.entries(object)
+
+// Creates an object from a list of keys/values
+Object.fromEntries()
+
+
+// Returna an array of the key of an object
+Object.keys(object)
+
+// Returns an array of the property values of an object
+Object.values(object)
+
+// Group object elements according to a function
+Object.groupBy(object, callback)
+
+
+
+
+
+// Property Managment Methods
+
+// Adding or changing an object property
+Object.defineProperty(object, property, descriptor)
+
