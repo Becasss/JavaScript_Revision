@@ -100,4 +100,9 @@ Object.getOwnPropertyDescriptor(object, property)
 // Accessing object Properties
 Object.getOwnPropertyDescriptors(object)
 
+// Returns all properties of an array
+Object.getOwnPropertyNames(object)
 
+
+// Accessing the prototype
+Object.getPrototypeOf(object)
