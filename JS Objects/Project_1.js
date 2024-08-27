@@ -90,3 +90,6 @@ Object.groupBy(object, callback)
 // Adding or changing an object property
 Object.defineProperty(object, property, descriptor)
 
+
+// Adding or changing object properties
+Object.defineProperties(object,descriptor)
