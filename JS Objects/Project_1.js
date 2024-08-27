@@ -122,3 +122,8 @@ Object.preventExtensioins(object)
 
 // Returns true if properties can be added to an object
 Object.isExtensible(object)
+
+// Prevents adding and deleting object properties
+Object.seal(object)
+
+
