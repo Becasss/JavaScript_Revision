@@ -96,3 +96,8 @@ Object.defineProperties(object, descriptor)
 
 // Accessing a Property
 Object.getOwnPropertyDescriptor(object, property)
+
+// Accessing object Properties
+Object.getOwnPropertyDescriptors(object)
+
+
