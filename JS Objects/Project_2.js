@@ -60,3 +60,13 @@ const person3 = {
 
 let text1 = Object.entries(person3);
 console.log(text1);
+
+
+
+// Object.entries() also makes it simple to convert objects to maps:
+
+const fruits = { Banana: 300, Oranges: 200, Apples: 500 };
+
+const myMap = new Map(Object.entries(fruits));
+
+console.log(myMap);
