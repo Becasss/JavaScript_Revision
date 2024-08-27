@@ -106,3 +106,16 @@ Object.getOwnPropertyNames(object)
 
 // Accessing the prototype
 Object.getPrototypeOf(object)
+
+
+
+
+// Object Protection Methods
+
+// Prevents re-assignment
+const car = { type: "Fiat", model: 500, color: "white" };
+
+
+// Prevents adding object properties
+Object.preventExtensioins(object)
+
