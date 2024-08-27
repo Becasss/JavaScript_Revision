@@ -119,3 +119,6 @@ const car = { type: "Fiat", model: 500, color: "white" };
 // Prevents adding object properties
 Object.preventExtensioins(object)
 
+
+// Returns true if properties can be added to an object
+Object.isExtensible(object)
