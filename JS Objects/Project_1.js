@@ -130,6 +130,7 @@ Object.seal(object)
 // Returns true if object is sealed
 Object.isSealed(object)
 
-// 
+// Prevents any changes to an object
+Object.freeze(object)
 
 
