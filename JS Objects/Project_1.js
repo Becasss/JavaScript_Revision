@@ -92,4 +92,7 @@ Object.defineProperty(object, property, descriptor)
 
 
 // Adding or changing object properties
-Object.defineProperties(object,descriptor)
+Object.defineProperties(object, descriptor)
+
+// Accessing a Property
+Object.getOwnPropertyDescriptor(object, property)
