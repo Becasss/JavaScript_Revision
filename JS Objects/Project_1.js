@@ -127,3 +127,9 @@ Object.isExtensible(object)
 Object.seal(object)
 
 
+// Returns true if object is sealed
+Object.isSealed(object)
+
+// 
+
+
