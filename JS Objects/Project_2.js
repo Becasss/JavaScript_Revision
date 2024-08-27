@@ -14,3 +14,9 @@ Person.prototype.nationality = "English";
 const myFather = new Person("John", "Doe", 50, "Blue");
 
 console.log(`The Nationality of my father is ${myFather.nationality}`);
+
+
+Person.prototype.name = function () {
+    return this.firstName + " " + this.lastName;
+}
+console.log(`My father is ${myFather.name}`);
