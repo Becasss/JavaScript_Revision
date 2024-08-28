@@ -43,3 +43,17 @@ function mul(x = 3, y = 6) {
 
 }
 console.log(mul());
+
+
+
+// Function Rest Parameters
+
+function sem(...args) {
+    let sem = 0;
+    for (let arg of args) sem += arg;
+    return sem;
+}
+
+let a = sem(4, 5, 6, 34, 34, 55, 6, 334);
+
+console.log(a);
