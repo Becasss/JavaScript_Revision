@@ -85,3 +85,25 @@ const myMath = new math("Ford");
 
 // You can call "hello(" on the math class:
 console.log(math.hello());
+
+// But not on a Car Object:
+
+/* document.getElementById("demo").innerHTML 
+= myMath.hello();
+// this will raise an error 
+*/
+
+
+// Example 2:
+class bike {
+    constructor(name) {
+        this.name = name;
+    
+    }
+
+    static hlo() {
+        return "Hello!"; + x.name;
+    }
+}
+const mYBike = new bike("YBike");
+console.log(bike.hlo(mYBike));
