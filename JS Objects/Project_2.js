@@ -95,3 +95,39 @@ const person4 = {
 };
 let text3 = Object.values(person4);
 console.log(text3);
+
+
+
+
+// Object.groupBy() Method:
+
+const fruits2 = [
+    { name: "apples", quantity: 300 },
+    {
+        name: "bananas",
+        quantity: 500
+    },
+    { name: "cherry", quantity: 300 },
+    { name: "cheese", quantity: 150 }
+];
+
+// callback function to select low volumes
+function myCallback({ quantity }) {
+    return quantity > 200 ? "Ok" : "low";
+}
+
+    // Group by ok and low
+    const result = Object.groupBy(fruits2, myCallback); 
+
+
+let text2 = "These fruits are OK: \n";
+for (let [x, y] of result.ok.entries()) {
+    text2 += y.name + " " + y.quantity + "\n";
+}
+
+text2 += "\n These fruits are low: \n";
+for (let [x, y] of result.low.entries()) {
+    text2 += y.name + " " + y.quantity + "\n";
+}
+
+console.log(text2);
