@@ -16,3 +16,9 @@ function myfunction(c, d) {
 }
 
 document.write("<br>The prorduct of c and d is " + x);
+
+
+// The Function() Constructor 
+
+const myfnc = new Function("a", "b", "return a * b");
+console.log(myfnc(5, 5));
