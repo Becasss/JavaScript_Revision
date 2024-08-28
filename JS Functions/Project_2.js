@@ -17,7 +17,7 @@ const person = {
     }
 }
 const person1 = {
-    firtName: "Bikash",
+    firstName: "Bikash",
     lastName: "Yamphu Rai"
 }
 const person2 = {
@@ -26,3 +26,4 @@ const person2 = {
 }
 
 console.log(person.fullName.call(person1));
+console.log(person.fullName.call(person2));
