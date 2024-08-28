@@ -34,3 +34,12 @@ function multiply(x, y) {
     return x * y;
 }
 console.log(multiply(5));
+
+
+// Default Parameters values
+
+function mul(x = 3, y = 6) {
+    return x + y;
+
+}
+console.log(mul());
