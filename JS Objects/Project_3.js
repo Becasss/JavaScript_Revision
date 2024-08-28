@@ -62,3 +62,56 @@ obj.increment;
 obj.decrement;
 
 console.log(obj.counter); // Output: 4
+
+
+
+// Object.preventExtensions() method:
+
+const person2 = {
+    firstName: 'John',
+    lastName: 'Doe'
+};
+
+// Prevent Extensions
+Object.preventExtensions(person2);
+
+// text Error
+let text = "";
+try {
+    person2.nationality = "English";
+}
+catch (error) {
+    text = error.message;
+}
+console.log(text);
+
+let answer = Object.isExtensible(person2);
+console.log(answer); // Output: false
+
+
+
+
+// Object.seal() Method
+"Use Strict"
+// Create Object
+const person3 = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    eyeColor: 'blue',
+};
+
+// Seal Object
+Object.seal(person3);
+
+// test Error
+let text1 = '';
+try {
+    delete person3.firstName;
+    text1 = Object.values(person3);
+}
+catch (error) {
+    text1 = err;
+
+}
+console.log(text1); // Output: ["Doe", 30, "blue"]
