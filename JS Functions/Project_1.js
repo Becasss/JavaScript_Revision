@@ -22,3 +22,15 @@ document.write("<br>The prorduct of c and d is " + x);
 
 const myfnc = new Function("a", "b", "return a * b");
 console.log(myfnc(5, 5));
+
+
+
+// Default Parameters
+
+function multiply(x, y) {
+    if (y === undefined) {
+        y = 2;
+    }
+    return x * y;
+}
+console.log(multiply(5));
