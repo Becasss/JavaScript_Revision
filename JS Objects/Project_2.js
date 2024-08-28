@@ -82,3 +82,16 @@ const fruits1 = [
 ];
 const myObj = Object.fromEntries(fruits1);
 console.log(myObj.banana);
+
+
+
+
+// Object.values() Method
+const person4 = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    eyeColor: "blue"
+};
+let text3 = Object.values(person4);
+console.log(text3);
