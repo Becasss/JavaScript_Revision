@@ -57,3 +57,17 @@ function sem(...args) {
 let a = sem(4, 5, 6, 34, 34, 55, 6, 334);
 
 console.log(a);
+
+
+// The Argument Object
+
+function findMax() {
+    let max = -Infinity;
+    for (let i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }       }
+        return `The maximum value is ${max}`;
+}
+
+console.log(findMax(5, 10, 15, 20));
