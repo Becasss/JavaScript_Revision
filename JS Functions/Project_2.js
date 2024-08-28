@@ -82,3 +82,17 @@ const member = {
 let fullName = person6.fullName.bind(member);
 
 console.log(fullName());
+
+
+
+// preserving this
+
+const person7 = {
+    firstName: "Bisista",
+    lastName: "Hollywood",
+    display: function () {
+        let x = document.getElementById('demo');
+        x.innerHTML = this.firstName + " " + this.lastName;
+    }
+}
+person7.display();
