@@ -71,3 +71,14 @@ function findMax() {
 }
 
 console.log(findMax(5, 10, 15, 20));
+
+
+// function to sum all input values:
+function samAll() {
+    let sam  = 0;
+    for (let i = 0; i < arguments.length; i++){
+        sam += arguments[i];
+    }
+    return sam;
+}
+console.log(samAll(1, 2, 3, 4, 5));
