@@ -70,3 +70,15 @@ const fruits = { Banana: 300, Oranges: 200, Apples: 500 };
 const myMap = new Map(Object.entries(fruits));
 
 console.log(myMap);
+
+
+
+
+// Object.formEntries() Method
+const fruits1 = [
+    ['apple', 300],
+    ['orange', 900],
+    ['banana', 200]
+];
+const myObj = Object.fromEntries(fruits1);
+console.log(myObj.banana);
