@@ -69,3 +69,19 @@ class person{
 
 const p1 = new person("John");
 console.log(p1.pname);
+
+
+
+// static Methods
+class math{
+    constructor(name) {
+        this.name = name;
+    }
+    static hello() {
+        return "Hello!";
+    }
+}
+const myMath = new math("Ford");
+
+// You can call "hello(" on the math class:
+console.log(math.hello());
