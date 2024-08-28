@@ -96,3 +96,29 @@ const person7 = {
     }
 }
 person7.display();
+
+
+const person8 = {
+    firstName: "John",
+    lastName: "Doe",
+    display: function () {
+        let y = document.getElementById('dmo');
+        y.innerHTML = this.firstName + " " + this.lastName;
+    }
+}
+setTimeout(person8.display, 300);
+
+
+
+// bind() method solves this problem
+
+const person9 = {
+    firstName: "John",
+    lastName: "Doe",
+    display: function () {
+        let a = document.getElementById('dmoa');
+        a.innerHTML = this.firstName + " " + this.lastName;
+    }
+}
+let display = person9.display.bind(person9);
+setTimeout(display, 3000);
