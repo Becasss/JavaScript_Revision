@@ -64,3 +64,21 @@ const pesn1 = {
     lastName: "Yamphu Rai"
 }
 console.log(person.fullName.apply(pesn1));
+
+
+// Function Borrowing - bind() Function
+
+const person6 = {
+    firstName: "John",
+    lastName: "Doe",
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+}
+const member = {
+    firstName: "Bikash",
+    lastName: "Doe"
+}
+let fullName = person6.fullName.bind(member);
+
+console.log(fullName());
