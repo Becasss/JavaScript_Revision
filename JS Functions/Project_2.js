@@ -48,3 +48,19 @@ const person5 = {
 }
 
 console.log(person.fullName.call(person4, "Oslo", 'Norway'));
+
+
+
+
+// Method Reuse - apply() Method
+
+const prsn = {
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+}
+const pesn1 = {
+    firstName: "Bikash",
+    lastName: "Yamphu Rai"
+}
+console.log(person.fullName.apply(pesn1));
