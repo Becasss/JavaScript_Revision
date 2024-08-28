@@ -27,3 +27,24 @@ const person2 = {
 
 console.log(person.fullName.call(person1));
 console.log(person.fullName.call(person2));
+
+
+
+
+// call() Method with Arguments
+
+const person3 = {
+    fullName: function (city, country) {
+        return this.firstName + " " + this.lastName + "," + city + " " + country;
+    }
+}
+const person4 = {
+    firstName: "Jane",
+    lastName: "Doe"
+}
+const person5 = {
+    firstName: "Mary",
+    lastName: "Smith"
+}
+
+console.log(person.fullName.call(person4, "Oslo", 'Norway'));
