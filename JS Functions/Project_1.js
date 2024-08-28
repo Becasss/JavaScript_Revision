@@ -82,3 +82,5 @@ function samAll() {
     return sam;
 }
 console.log(samAll(1, 2, 3, 4, 5));
+
+
