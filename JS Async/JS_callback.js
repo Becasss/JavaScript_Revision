@@ -44,3 +44,26 @@ function myCalculators(num1, num2, myCallback) {
 }
 
 myCalculators(10, 10, myDisplays);
+
+
+
+// create an Array
+const myNumbers = [1, 2, -3, 4, 5, -6, 7]; 
+
+// call revomeNeg with a callback
+const postNumbers = removeNeg(myNumbers, (x) => x >= 0);
+
+
+// Display Result
+console.log(postNumbers);
+
+// Revome Negative Numbers
+function removeNeg(numbers,myCallback) {
+    const myArray = [];
+    for (const x of numbers){
+        if (myCallback(x)) {
+            myArray.push(x);
+        }
+    }
+    return myArray;
+    }
