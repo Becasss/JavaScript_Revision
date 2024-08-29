@@ -30,3 +30,17 @@ function myCalculator(num1, num2) {
 }
 let result = myCalculator(10, 10);
 myDisplay(result);
+
+
+// JavaScript Callbacks
+function myDisplays(something) {
+    console.log(something);
+}
+
+function myCalculators(num1, num2, myCallback) {
+    let sum = num1 + num2;
+
+    myCallback(sum);
+}
+
+myCalculators(10, 10, myDisplays);
