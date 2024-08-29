@@ -36,3 +36,14 @@ myPromise.then(
     function (value) { myDisplayers(value); },
     function (error) { myDisplayers(error); }
 );
+
+
+
+// Waiting for a file
+const mypromise = new Promise(function (myResolve, myReject) {
+    setTimeout(function () { myResolve("I love you!!"); }, 3000);
+});
+
+mypromise.then(function (value) {
+    console.log(value);
+})
