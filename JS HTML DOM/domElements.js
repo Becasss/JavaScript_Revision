@@ -29,3 +29,11 @@ const a = document.getElementsByClassName("intro");
 
 document.getElementById("demo2").innerHTML =
     `the firstt paragraph is (index 0) with class : ${a[0].innerHTML}`;
+
+
+
+// Finding HTML Elements by CSS Selectors
+
+const b = document.querySelectorAll("h2.intro");
+document.getElementById("demo3").innerHTML =
+    `The first paragraph is (index 0) with class : ${b[0].innerHTML}`;
