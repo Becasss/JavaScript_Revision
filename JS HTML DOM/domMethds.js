@@ -44,3 +44,14 @@ document.write(text)                        -  Write into the HTML output stream
 /*
 document.getElementById(id).onclick = function(){code}          - Adding event handler code to an onclick event 
  */
+
+
+
+// Finding HTML Objects
+/*  
+document.anchors            - Returns all <a> elements that have a name attribute
+document.applets            - Deprecated
+document.baseURI            - Returns the absoulute base URI of the document
+document.body               - Returns the <body> elementt
+document.cookie             - Returns the document's cookie
+*/
