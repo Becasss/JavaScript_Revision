@@ -37,3 +37,16 @@ document.getElementById("demo2").innerHTML =
 const b = document.querySelectorAll("h2.intro");
 document.getElementById("demo3").innerHTML =
     `The first paragraph is (index 0) with class : ${b[0].innerHTML}`;
+
+
+
+
+
+
+// Finding HTML Elements by HTML Object Collections
+const c = document.forms["frm1"];
+let text = "";
+for (let i = 0; i < c.length; i++){
+    text += c.elements[i].value + '<br>';
+}
+document.getElementById("demo4").innerHTML = text;
