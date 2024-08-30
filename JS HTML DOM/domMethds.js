@@ -54,4 +54,14 @@ document.applets            - Deprecated
 document.baseURI            - Returns the absoulute base URI of the document
 document.body               - Returns the <body> elementt
 document.cookie             - Returns the document's cookie
-*/
+document.doctype            - Returns the document's doctype
+document.documentElementt   - Returns <html> element
+document.documentMode       - Returns the mode used by the browser
+document.documentUri        - Returns the URI of the document
+document.domain             - Returns the domain name of the document server
+document.domConfig          - Obsolet
+document.embeds             - Returns all <embed> elements
+documents.forms             - Returns all <forms> elements
+document.head               - Returns the <head> element
+document.images             - Returns all <img> elements
+document.inputEncoding      . Returns the document's encoding (character set)
