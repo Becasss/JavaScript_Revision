@@ -27,3 +27,20 @@ element.attribute = new value                - change the attributes value of an
 element.style.property = new style          - change the style of an HTMl element
 element.setAttribute(attribute,value)       - change the attribute value of an HTML element
 */
+
+
+// Adding and Deleting HTML elements
+/* 
+document.createElement(element)             -  Create an HTMl element
+document.removeChild(element)               -  Remove an HTML element
+document.appendChild(element)               -  Add an HTMl element
+document.replaceChild(new,old)              -  Replace an HTML element
+document.write(text)                        -  Write into the HTML output stream
+*/
+
+
+
+// Adding Events Handlers
+/*
+document.getElementById(id).onclick = function(){code}          - Adding event handler code to an onclick event 
+ */
