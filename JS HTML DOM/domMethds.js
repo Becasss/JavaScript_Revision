@@ -3,3 +3,7 @@
 
 
 document.getElementById("demo").innerHTML = "Hello, world!";
+
+
+// innerHTML property can be used to get or change any HTML element, including <html> and <body>.
+
