@@ -14,12 +14,16 @@ document.getElementById("demo").innerHTML = "Hello, world!";
 
 // Finding HTML Elements
 /*
-document.getElementById(id)     - Find an element by element id
-document.getElementsByTagName(name)   - Find elements by tag name
-document.getElementsByClassName(name) - Find elements by class name
+document.getElementById(id)                      - Find an element by element id
+document.getElementsByTagName(name)              - Find elements by tag name
+document.getElementsByClassName(name)            - Find elements by class name
 */
 
 
 // Changing HTML Elements
 /*
-element.innerHTML = new html content        -  Change the inner HTML of an element */
+element.innerHTML = new html content        -  Change the inner HTML of an element 
+element.attribute = new value                - change the attributes value of an HTML element
+element.style.property = new style          - change the style of an HTMl element
+element.setAttribute(attribute,value)       - change the attribute value of an HTML element
+*/
