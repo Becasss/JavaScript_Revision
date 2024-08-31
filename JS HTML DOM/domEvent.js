@@ -31,3 +31,11 @@ function checkCookies() {
     } document.getElementById("demo2").innerHTML
         = text;
 }
+
+
+// The oninput Event
+
+function upperCase() {
+    const x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+}
