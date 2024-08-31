@@ -39,3 +39,9 @@ function upperCase() {
     const x = document.getElementById("fname");
     x.value = x.value.toUpperCase();
 }
+
+// The onchange Event
+function uperCase() {
+    const y = document.getElementById("adre");
+    y.value = y.value.toUpperCase();
+}
