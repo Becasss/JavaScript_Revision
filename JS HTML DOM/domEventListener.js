@@ -62,3 +62,16 @@ function mySecondFunction() {
 window.addEventListener("resize", function () {
     document.getElementById("demo2").innerHTML = Math.random();
 });
+
+
+// Passing Parameters
+
+let p1 = 5;
+let p2 = 7;
+document.getElementById("myBtn4").addEventListener("clik", function () {
+    myfunction(p1, p2);
+});
+
+function myfunction(a, b) {
+    document.getElementById("demo3").innerHTML = a * b;
+}
