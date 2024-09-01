@@ -15,3 +15,19 @@ function displayDate() {
 document.getElementById("myBtn1").addEventListener("click", function () {
     alert("Hello World!");
 });
+
+
+// ADD  Many Event Handlers to the same Element
+
+var x = document.getElementById("myBtn2");
+
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+    alert("Hello World!");
+}
+
+function someOtherFunction() {
+    alert("This is another function!");
+}
