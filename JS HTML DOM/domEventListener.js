@@ -31,3 +31,27 @@ function myFunction() {
 function someOtherFunction() {
     alert("This is another function!");
 }
+
+
+
+// ADD events of different types to the same element
+
+var y = document.getElementById("myBtn3");
+
+y.addEventListener("mouseover", myfirstFunction);
+y.addEventListener("mouseout", someFunction);
+y.addEventListener('click', mySecondFunction);
+
+
+
+function myfirstFunction() {
+    document.getElementById("demo1").innerHTML += "Mouseover! <br>";
+}
+
+function someFunction() {
+    document.getElementById("demo1").innerHTML += "Mouseout! <br>";
+}
+
+function mySecondFunction() {
+    document.getElementById("demo1").innerHTML += "Clicked! <br>";
+}
