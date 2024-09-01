@@ -55,3 +55,10 @@ function someFunction() {
 function mySecondFunction() {
     document.getElementById("demo1").innerHTML += "Clicked! <br>";
 }
+
+
+// Add an Event Handler to the window Object
+
+window.addEventListener("resize", function () {
+    document.getElementById("demo2").innerHTML = Math.random();
+});
