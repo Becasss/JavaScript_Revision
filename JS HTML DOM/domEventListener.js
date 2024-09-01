@@ -75,3 +75,16 @@ document.getElementById("myBtn4").addEventListener("clik", function () {
 function myfunction(a, b) {
     document.getElementById("demo3").innerHTML = a * b;
 }
+
+
+
+// The removeEventlistener() method
+
+document.getElementById("myDIV").addEventListener("mouseover", mylfunction); 
+function mylfunction() {
+    document.getElementById("demo4").innerHTML = Math.random();
+}
+
+function removeHandler() {
+    document.getElementById("myDIV").removeEventListener("mouseover", mylfunction);
+}

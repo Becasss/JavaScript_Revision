@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript HTML DOM Event Listener</title>
+    <style>
+        #myDIV{
+            background-color: aqua;
+            border: 1px solid ;
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     
@@ -23,9 +32,17 @@
 <br><br>
 
 <button id="myBtn4">Try it!</button>
-<p id="demo3"></p>
+<p id="demo3"></p><br><br><br>
 
+<h2>Javascirpt removeEventlistener()</h2>
 
+<div id="myDIV">
+    <p>This div element has an onmouseover event handler that displays a random number every time you move your mouse inside this oragne field</p>
+   <p>Click the button to remove the div's event Handler.</p> 
+   <button onclick="removeHandler()" id="myBtn5">Remove</button>
+</div>
+
+<p id="demo4"></p>
     <script src="domEventListener.js"></script>
 </body>
 </html>
