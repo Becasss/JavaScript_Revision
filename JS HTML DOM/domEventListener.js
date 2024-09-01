@@ -12,3 +12,6 @@ function displayDate() {
 
 // Add an Event listener to an Element
 
+document.getElementById("myBtn1").addEventListener("click", function () {
+    alert("Hello World!");
+});
