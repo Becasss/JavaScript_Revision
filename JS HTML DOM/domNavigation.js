@@ -15,3 +15,7 @@ document.getElementById("id07").innerHTML = document.body.innerHTML;
 
 // Node Name Property
 document.getElementById("id08").innerHTML = document.getElementById("id09").nodeName;
+
+
+// Node value Property
+document.getElementById("id11").innerHTML = document.getElementById("id10").nodeValue;
