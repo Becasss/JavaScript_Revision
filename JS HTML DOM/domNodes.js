@@ -18,3 +18,29 @@ newPara.appendChild(nodee);
 const elementt = document.getElementById("div2");
 const child = document.getElementById("p3");
 elementt.insertBefore(newPara, child);
+
+
+
+// Removing Existing HTML Elements
+
+function myFunction() {
+    document.getElementById("p5").remove();
+}
+
+
+// Removing child Element
+
+const p = document.getElementById("div4");
+const q = document.getElementById("p7");
+
+p.removeChild(q);
+
+
+// Replacing HTML Elements
+
+const a = document.getElementById("div5");
+const b = document.createElement("p9");
+const c = document.createTextNode("p");
+const d = document.createTextNode("This is new.");
+c.appendChild(d);
+a.replaceChild(c,b);
