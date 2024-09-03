@@ -11,3 +11,8 @@ const myJSON = {
 const myObj = JSON.parse(myJSON);
 
 console.log(myObj.name);
+
+
+// Accessing Object Values:
+
+console.log(myObj.city);
