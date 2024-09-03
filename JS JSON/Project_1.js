@@ -62,3 +62,8 @@ document.getElementById("demo").innerHTML = myObj.name;
 
 
 // JSON Data types
+
+
+// JSON Strings :  {"name": "John"}
+
+
