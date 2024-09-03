@@ -17,3 +17,19 @@ console.log(obj.employees[0].firstName);
 
 
 
+// JSON Example:
+
+// JSON Data - A Name and  a Value // "name" : "John"
+
+
+const myObj = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+document.getElementById("demo").innerHTML = myObj.name;
+
+
+
+
