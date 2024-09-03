@@ -30,6 +30,30 @@ const myObj = {
 myObj.name = "Bikash";
 document.getElementById("demo").innerHTML = myObj.name;
 
-// 
 
 
+/*
+// JSON Example:
+{"employees":[
+{"firstName": "John", "LastName": "Doe"},
+{"firstName": "Anna" , "LastName": "Smith"},
+{"firstName": "peter", "LastName": "Jones"}
+]}
+ */
+
+
+
+/* 
+// XML Example
+<employees>
+<employees> 
+<firstName> John</firstName> <lastName>Doe</lastName>
+</employees>
+<employees>
+<firstName> Anna</firstName> <lastName> Smith</lastName>
+</employees> 
+<employees>
+<firstName> Peter</firstName> <lastName> Jones</lastName>
+</employees>
+</employees>
+*/
