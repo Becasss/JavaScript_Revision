@@ -25,3 +25,21 @@ console.log(bdate); // Throws error: Invalid Date
 console.log(bdate.name);
 bdate.birth = new Date(bdate.birth);
 console.log(bdate.brith); // Throws error: Invalid
+
+
+
+
+// Converting a string into a date object using reviver parameters:
+
+const txt = '{"name":"John","birth":"1986-12-14", "city":"New York"}';
+
+const ob = JSON.parse(txt, function (key, value) {
+    if(key == "birth") {
+    return new Date(value);
+}else {
+    return value;
+}
+
+});
+
+console.log(ob.birth); // Outputs: Date object: 1986-12-14T00:00:00.000Z
