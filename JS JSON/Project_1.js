@@ -75,3 +75,9 @@ document.getElementById("demo").innerHTML = myObj.name;
 
 // JSON Arrays: {"employees" : ['John', "Anna", "Peter"]}
 
+
+
+// JSON Booleans : {"sale"  true}
+
+
+// J
