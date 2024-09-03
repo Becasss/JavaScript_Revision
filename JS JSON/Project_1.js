@@ -71,3 +71,7 @@ document.getElementById("demo").innerHTML = myObj.name;
 
 
 // JSON Objects : {"employees" : "name": "John", "age": 30, "city": "New York}}
+
+
+// JSON Arrays: {"employees" : ['John', "Anna", "Peter"]}
+
