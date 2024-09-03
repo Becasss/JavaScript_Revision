@@ -43,3 +43,15 @@ const ob = JSON.parse(txt, function (key, value) {
 });
 
 console.log(ob.birth); // Outputs: Date object: 1986-12-14T00:00:00.000Z
+
+
+
+
+// Parsing Functions
+
+const a = '{"Name":"John","Birth":"1986-12-14","age": "function(){return 30;}", "City":"New York"}';
+
+const b = JSON.parse(a);
+b.age = eval("(" + b.age + ")"); 
+
+console.log(b.name + " " + b.age());
