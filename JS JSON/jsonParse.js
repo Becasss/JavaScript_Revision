@@ -23,3 +23,5 @@ const bdate = JSON.parse(date);
 
 console.log(bdate); // Throws error: Invalid Date
 console.log(bdate.name);
+bdate.birth = new Date(bdate.birth);
+console.log(bdate.brith); // Throws error: Invalid
