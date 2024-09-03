@@ -40,3 +40,12 @@ const d = { name: "BIkash", todaay: new Date(), city: "Kathmandu" };
 const myd = JSON.stringify(d);
 
 console.log(myd);
+
+
+// Stringify Functions
+
+const fun = { name: "Sirjana", age: function () { return 40; }, city: "Kathmandu" };
+fun.age = fun.age.toString();
+const func = JSON.stringify(fun);
+
+console.log(func);
