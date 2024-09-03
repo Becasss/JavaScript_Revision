@@ -67,3 +67,4 @@ document.getElementById("demo").innerHTML = myObj.name;
 // JSON Strings :  {"name": "John"}
 
 
+// JSON Numbers :  {"age": 30}
