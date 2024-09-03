@@ -30,3 +30,13 @@ let text = localStorage.getItem("testJSON");
 let z = JSON.parse(text);
 
 console.log(z.name);
+
+
+
+// Stringify Dates:
+
+const d = { name: "BIkash", todaay: new Date(), city: "Kathmandu" };
+
+const myd = JSON.stringify(d);
+
+console.log(myd);
