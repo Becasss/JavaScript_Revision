@@ -57,3 +57,8 @@ document.getElementById("demo").innerHTML = myObj.name;
 </employees>
 </employees>
 */
+
+
+
+
+// JSON Data types
