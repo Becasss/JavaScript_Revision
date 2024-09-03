@@ -27,9 +27,9 @@ const myObj = {
     age: 30,
     city: "New York"
 };
-
+myObj.name = "Bikash";
 document.getElementById("demo").innerHTML = myObj.name;
 
-
+// 
 
 
