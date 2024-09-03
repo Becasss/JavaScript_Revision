@@ -80,4 +80,6 @@ document.getElementById("demo").innerHTML = myObj.name;
 // JSON Booleans : {"sale"  true}
 
 
-// J
+// JSON Null : {"middlename": null}
+
+
