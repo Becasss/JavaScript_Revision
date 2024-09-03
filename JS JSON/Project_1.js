@@ -68,3 +68,6 @@ document.getElementById("demo").innerHTML = myObj.name;
 
 
 // JSON Numbers :  {"age": 30}
+
+
+// JSON Objects : {"employees" : "name": "John", "age": 30, "city": "New York}}
