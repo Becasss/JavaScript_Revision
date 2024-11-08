@@ -7,7 +7,7 @@
   </head>
   <body>
     <script>
-      class Car {
+      /* class Car {
         constructor(brand, model, year) {
           this.brand = brand;
           this.model = model;
@@ -21,6 +21,24 @@
       const mycar1 = new Car("Audi", 2018, 2000);
       document.write(mycar1.brand + " " + mycar1.model);
       document.write(mycar.present());
+      */
+
+      // Getters and setters
+
+      class Car {
+        constructor(brand) {
+          this.carname = brand;
+        }
+        get cnam() {
+          return this.carname;
+        }
+        set cnam(x) {
+          this.carname = x;
+        }
+      }
+
+      const myCar = new Car("Apple");
+      document.write(myCar.cnam);
     </script>
   </body>
 </html>
