@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Method in Classes</title>
+  </head>
+  <body>
+    <script>
+      class Car {
+        constructor(brand, model, year) {
+          this.brand = brand;
+          this.model = model;
+          this.year = year;
+        }
+        present() {
+          return "I have a " + this.brand;
+        }
+      }
+      const mycar = new Car("Ford");
+      const mycar1 = new Car("Audi", 2018, 2000);
+      document.write(mycar1.brand + " " + mycar1.model);
+      document.write(mycar.present());
+    </script>
+  </body>
+</html>
