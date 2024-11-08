@@ -7,13 +7,27 @@
   </head>
   <body>
     <script>
-      class Car {
+      /*class Car {
         constructor(name) {
           this.brand = name;
         }
       }
       const myCar = new Car("farrari");
-      console.log(myCar.brand);
+      console.log(myCar.brand);   */
+
+      class Car {
+        constructor(name, year) {
+          this.name = name;
+          this.year = year;
+        }
+        age() {
+          const date = new Date();
+          return date.getFullYear() - this.year;
+        }
+      }
+
+      const myCar = new Car("Ford", 1023);
+      document.write("My car is " + myCar.age() + " years old.");
     </script>
   </body>
 </html>
