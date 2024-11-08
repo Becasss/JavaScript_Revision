@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Inheritance</title>
+  </head>
+  <body>
+    <script>
+      class Animal {
+        constructor(name) {
+          this.animalname = name;
+        }
+        present() {
+          return `I am an animal and my name is ${this.animalname}`;
+        }
+      }
+
+      class Model extends Animal {
+        constructor(name, mod) {
+          super(name); // the super() method refers to the parent class.
+          this.model = mod;
+        }
+        show() {
+          return `I am a model and my name is ${this.animalname} and my model is ${this.model}`;
+        }
+      }
+
+      const myAnimal = new Model("Giraff", "Carnivorous");
+      document.write(myAnimal.show());
+    </script>
+  </body>
+</html>
