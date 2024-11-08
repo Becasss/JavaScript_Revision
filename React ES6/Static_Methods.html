@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Methods</title>
+  </head>
+  <body>
+    <script>
+      class Car {
+        constructor(name) {
+          this.name = name;
+        }
+        static hello() {
+          return "hello!";
+        }
+      }
+
+      const myCar = new Car("Ford");
+
+      // You can call 'hello()' on the car class:
+      document.write(Car.hello());
+
+      // But NOT on  a Car Class:
+      // document.write(myCar.hello);
+      // this will raise error.
+    </script>
+  </body>
+</html>
