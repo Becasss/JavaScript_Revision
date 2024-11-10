@@ -21,10 +21,16 @@
       // with Arrow Function
       let greet = "";
       greet = () => {
-        return "Hello, Bikash Yamphu Rai";
+        return "Hello, Bikash Yamphu Rai <br>";
       };
 
       document.write(greet());
+
+      // Arrow Function Returns Value by Default:
+      let add = (a, b) => {
+        return a + b;
+      };
+      document.write("Sum of 5 and 10 is: " + add(5, 10));
     </script>
   </body>
 </html>
