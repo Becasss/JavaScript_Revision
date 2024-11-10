@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript "THis"</title>
+  </head>
+  <body>
+    <h1>JavaScript "this"</h1>
+    <p>
+      This is an example demonstrate that in a regular function, the "this"
+      keyword represents differentt objects depending on how the function was
+      called.
+    </p>
+
+    <button id="btn">Click Me!</button>
+    <p id="demo"></p>
+
+    <script>
+      let hello = "";
+      hello = function () {
+        document.getElementById("hello").innerHTML += this;
+      };
+      // The window object calls the function:
+      window.addEventListener("Load", hello);
+
+      // A button calls the function:
+      document.getElementById("btn").addEventListener("click", hello);
+
+      // A nested function calls the function:
+      let nestedHello = function () {
+        let innerHello = function () {
+          document.getElementById("demo").innerHTML += this;
+        };
+        innerHello();
+      };
+      nestedHello();
+
+      // An anonymous function calls the function:
+      document.getElementById("btn").addEventListener("click", function () {
+        document.getElementById("demo").innerHTML += this;
+      });
+
+      // A function within another function calls the function:
+      let outerHello = function () {
+        let innerHello = function () {
+          document.getElementById("demo").innerHTML += this;
+        };
+        innerHello();
+      };
+      outerHello();
+
+      // An arrow function calls the function:
+      document.getElementById("btn").addEventListener("click", () => {
+        document.getElementById("demo").innerHTML += this;
+      });
+    </script>
+  </body>
+</html>
