@@ -7,57 +7,80 @@
   </head>
   <body>
     <script>
-      /****************************************
-         import React for 'react'
-         import ReactDOM from 'react-dom/client'
+        /****************************************
+           import React for 'react'
+           import ReactDOM from 'react-dom/client'
 
-         const myArray = ['apple', 'banana', 'orange'
+           const myArray = ['apple', 'banana', 'orange'
 
-         const myList = myArray.map((item) => <p>{item}</p>
+           const myList = myArray.map((item) => <p>{item}</p>
 
-         const container = document.getElementById('root');
-         const root = ReactDOM.createRoot(container);
-         root.render(myList)
-         ******************************************************/
+           const container = document.getElementById('root');
+           const root = ReactDOM.createRoot(container);
+           root.render(myList)
+           ******************************************************/
 
-      // Destructing Arrays:
+        // Destructing Arrays:
 
-      /*
+        /*
 
-         const vechiles = ['mustang', 'f-150','expedition' ];
+           const vechiles = ['mustang', 'f-150','expedition' ];
 
-         // Old way
-         const car = vechiles[0];
-         const truck = vechiles[1];
-         const motorcycle = vechiles[2];
-
-
-         // New Way
-         const vechiles = ['mustang', 'f-150','expedition'];
-         const [car, truck, suver] = vechiles;
+           // Old way
+           const car = vechiles[0];
+           const truck = vechiles[1];
+           const motorcycle = vechiles[2];
 
 
-         // IF we only want the car and suv we can simply leave out the truck but keep the comma:
+           // New Way
+           const vechiles = ['mustang', 'f-150','expedition'];
+           const [car, truck, suver] = vechiles;
 
-         const [car,, suv] = vechiles;
 
-         */
+           // IF we only want the car and suv we can simply leave out the truck but keep the comma:
 
-      function calculate(a, b) {
-        const add = a + b;
-        const subtract = a - b;
-        const multiply = a * b;
-        const divide = a / b;
+           const [car,, suv] = vechiles;
 
-        return [add, subtract, multiply, divide];
+           */
+
+        function calculate(a, b) {
+          const add = a + b;
+          const subtract = a - b;
+          const multiply = a * b;
+          const divide = a / b;
+
+          return [add, subtract, multiply, divide];
+        }
+
+        const [add, subtract, multiply, divide] = calculate(10, 20);
+
+        document.write("<p> Sum is : " + add + "</p>");
+        document.write("<p> Difference is : " + subtract + "</p>");
+        document.write("<p> Product is : " + multiply + "</p>");
+        document.write("<p> Division is : " + divide + "</p>");
+
+
+
+        // Destructuring Objects:
+        /*
+        const vechicleOne = {
+        brand: 'Ford',
+        model:'Mustang',
+        type:'car',
+        year: 2021,
+        color:'red'
       }
 
-      const [add, subtract, multiply, divide] = calculate(10, 20);
+      myVehicle(vehicleOne);
 
-      document.write("<p> Sum is : " + add + "</p>");
-      document.write("<p> Difference is : " + subtract + "</p>");
-      document.write("<p> Product is : " + multiply + "</p>");
-      document.write("<p> Division is : " + divide + "</p>");
+      // Old Way:
+      function myVehicle(vehicle){
+      const message = 'My' + vehicle.type + 'is a' + vehicle.color + '' + vehicle.model + " .";
+      }
+
+      */
+
+      const
     </script>
   </body>
 </html>
