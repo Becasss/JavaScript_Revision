@@ -7,7 +7,7 @@
   </head>
   <body>
     <script>
-        /****************************************
+      /****************************************
            import React for 'react'
            import ReactDOM from 'react-dom/client'
 
@@ -20,9 +20,9 @@
            root.render(myList)
            ******************************************************/
 
-        // Destructing Arrays:
+      // Destructing Arrays:
 
-        /*
+      /*
 
            const vechiles = ['mustang', 'f-150','expedition' ];
 
@@ -43,26 +43,24 @@
 
            */
 
-        function calculate(a, b) {
-          const add = a + b;
-          const subtract = a - b;
-          const multiply = a * b;
-          const divide = a / b;
+      function calculate(a, b) {
+        const add = a + b;
+        const subtract = a - b;
+        const multiply = a * b;
+        const divide = a / b;
 
-          return [add, subtract, multiply, divide];
-        }
+        return [add, subtract, multiply, divide];
+      }
 
-        const [add, subtract, multiply, divide] = calculate(10, 20);
+      const [add, subtract, multiply, divide] = calculate(10, 20);
 
-        document.write("<p> Sum is : " + add + "</p>");
-        document.write("<p> Difference is : " + subtract + "</p>");
-        document.write("<p> Product is : " + multiply + "</p>");
-        document.write("<p> Division is : " + divide + "</p>");
+      document.write("<p> Sum is : " + add + "</p>");
+      document.write("<p> Difference is : " + subtract + "</p>");
+      document.write("<p> Product is : " + multiply + "</p>");
+      document.write("<p> Division is : " + divide + "</p>");
 
-
-
-        // Destructuring Objects:
-        /*
+      // Destructuring Objects:
+      /*
         const vechicleOne = {
         brand: 'Ford',
         model:'Mustang',
@@ -80,7 +78,20 @@
 
       */
 
-      const
+      const vehicleOne = {
+        brand: "Ford",
+        model: "Mustang",
+        type: "car",
+        year: 2021,
+        color: "red",
+      };
+
+      myVehicle(vehicleOne);
+
+      function myVehicle({ type, color, brand, model }) {
+        const message = `My ${type} is a ${color} ${brand} ${model}.`;
+        document.write("<p>" + message + "</p>");
+      }
     </script>
   </body>
 </html>
