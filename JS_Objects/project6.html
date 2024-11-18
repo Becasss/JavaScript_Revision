@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Objects</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      const fruits = ["Banana", "Apple", "Mango"];
+      Object.preventExtensions(fruits);
+
+      // Test Error
+      let text = "";
+      try {
+        fruits.push("Orange");
+      } catch (error) {
+        text = error;
+      }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
