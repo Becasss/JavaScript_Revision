@@ -5,5 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project7 CSS Objects</title>
   </head>
-  <body></body>
+  <body>
+    <script>
+      // Javascript Object.assign()
+
+      // Create Target Object
+      const person1 = {
+        name: "John",
+        age: 30,
+        city: "New York",
+      };
+
+      // Create soure Object
+      const person2 = {
+        name: "Bikash",
+        city: "London",
+      };
+
+      // Assign Source to Target Object
+      Object.assign(person1, person2);
+
+      // Display Result
+      let text = Object.entries(person1); // Object.entries() returns an array of the key/values pairs in an object.
+
+      document.write(text);
+
+      // Object.fromEntries() Mehod
+      const fruits = [
+        ["apples", 300],
+        ["bananas", 200],
+        ["oranges", 100],
+      ];
+      const myObj = Object.fromEntries(fruits);
+      document.write(myObj.apples);
+    </script>
+  </body>
 </html>
