@@ -5,5 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS POPUP Confirm Box</title>
   </head>
-  <body></body>
+  <body>
+    <h2>JavaScript Confirm Box</h2>
+    <button onclick="confirmBox()">Click me</button>
+    <p id="demo"></p>
+    <script>
+      function confirmBox() {
+        var text;
+        if (confirm("Press a button?")) {
+          text = "You pressed OK!";
+        } else {
+          text = "You pressed Cancel!";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+  </body>
 </html>
